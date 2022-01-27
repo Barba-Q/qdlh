@@ -1,4 +1,4 @@
-# qdlh
+# qdlh alpha
 Qtile dirty litte helper - graphical settings-tool for qtile
 
 # Description
@@ -17,6 +17,8 @@ Qdlh can:
 - set text color
 
 - set up to five (for now) apps to autostart
+
+![qdlh 0.1](https://github.com/Barba-Q/qdlh/blob/main/qdlh01.png)
 
 
 ## Requirements
