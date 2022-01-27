@@ -95,5 +95,5 @@ There are a lot of files for now, to clear up some confusion heres what every on
 ## Is this necesarry
 
 Of course it's not, this tool exists, if at all, to make it easier for beginners to get started with qtile and not at least to test my premature skills in python.
-Bare with me and feeld free to take it to the next level.
+Bare with me and feel free to take it to the next level.
 
