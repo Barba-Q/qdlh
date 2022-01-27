@@ -24,6 +24,7 @@ Qdlh can:
 ## Requirements
 - xterm
 - python 3.9
+- tkinter for python3.9
 - qtile
 
 
@@ -54,6 +55,7 @@ make this some kind of appealing, but I'm working hard on that :-)
 
 ## Road to 1.0
 Following features will be added:
+- Give the installer some intelligence (check for distro, install missing stuff.. things like that)
 - Detect invalid options (e.g. wrong filetype for wallpaper)
 - Set bar position
 - Set up multiple bars
@@ -61,6 +63,8 @@ Following features will be added:
 - Multimonitor settings
 - Some kind of widget selector
 - Load backup config option
+- Restart qtile automatically (almost done)
+- Make it look good in a tiling environment
 
 
 ## The files
@@ -96,4 +100,6 @@ There are a lot of files for now, to clear up some confusion heres what every on
 
 Of course it's not, this tool exists, if at all, to make it easier for beginners to get started with qtile and not at least to test my premature skills in python.
 Bare with me and feel free to take it to the next level.
+
+Oh btw I've tested this on opensuse only. It _should_ work everywhere else though.
 
