@@ -1,6 +1,9 @@
 # qdlh alpha
 Qtile dirty litte helper - graphical settings-tool for qtile
 
+
+![qdlh 0.1](https://github.com/Barba-Q/qdlh/blob/main/qdlh01.png)
+
 # Description
 Qdlh comes along with an "installer" wich moves some files around to access a small python tool to set up qtile the graphical way.
 It can be spawned as every other software with `MOD+R qdlh` once it's installed. 
@@ -18,13 +21,12 @@ Qdlh can:
 
 - set up to five (for now) apps to autostart
 
-![qdlh 0.1](https://github.com/Barba-Q/qdlh/blob/main/qdlh01.png)
 
 
 ## Requirements
 - xterm
 - python 3.9
-- tkinter for python3.9
+- tkinter for python3.9 (e.g. python39-tk)
 - qtile
 
 
