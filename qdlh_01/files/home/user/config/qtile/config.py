@@ -104,7 +104,7 @@ keys.extend([
 
 
 layouts = [
-    layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=2, margin = 12),
+    layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=2, margin = margin),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
