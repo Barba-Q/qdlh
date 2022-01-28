@@ -13,8 +13,8 @@ Qdlh can:
 - set bar size
 - set font size
 - set margin (Gapsize between windows)
-- set Wallpaper and it's mode
-- set Barcolor
+- set wallpaper and it's mode
+- set barcolor
 - set foreground color
 - set background color
 - set text color
@@ -48,10 +48,10 @@ will take effect after completely restarting qtile (relogin / restart)
 
 ## Notes
 
-- 	qdlh is made to be 'not so invasive' to the qtile config so you still be able to fiddle 
+- 	qdlh is made to be 'not so invasive' on the qtile config so you still be able to fiddle 
 	around as you please
   
-- this is alpha software for a reason, a lot of features I want to implement are missing. I need a lot more experience with python to 
+- this is alpha software for a reason, a lot of features I want to implement are missing, it's ugly and I need a lot more experience with python to 
 make this some kind of appealing, but I'm working hard on that :-)
 	
 
