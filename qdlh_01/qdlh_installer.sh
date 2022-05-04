@@ -29,6 +29,7 @@ xterm -e	"cp '$apwd'/files/home/user/config/qtile/config.py ~/.config/qtile/conf
             cp '$apwd'/files/home/user/config/qtile/qdlh_conf.py ~/.config/qtile/qdlh_conf.py;
             cp '$apwd'/files/home/user/config/qtile/wallpaper.png ~/.config/qtile/wallpaper.png;
             sudo cp '$apwd'/files/usr/bin/qdlh /usr/bin/qdlh;
+	    sudo chmod 755 '$apwd'/files/usr/bin/qdlh /usr/bin/qdlh; 
             sleep 3
             read -s -n1 -p 'All done. Start qtile dirty little helper by spawning 'qdlh' - Press any key to close...'"
 
