@@ -1,5 +1,5 @@
 # qdlh alpha
-Qtile dirty litte helper - graphical settings-tool for qtile
+Qtile dirty litte helper - graphical settings-tool for qtile. -
 Since 02 it comes along with an graphical applicationlauncher. It can be launched by pressing Meta + Q (default)
 
 ![qdlh 0.2](https://github.com/Barba-Q/qdlh/blob/main/qdlh_menu.png)
