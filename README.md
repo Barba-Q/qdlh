@@ -4,6 +4,8 @@ Since 02 it comes along with an graphical applicationlauncher. It can be launche
 
 ![qdlh 0.2](https://github.com/Barba-Q/qdlh/blob/main/qdlh_menu.png)
 
+The Reboot and Shutdown button may not work at this point.
+
 ![qdlh 0.1](https://github.com/Barba-Q/qdlh/blob/main/qdlh01.png)
 
 
