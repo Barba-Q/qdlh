@@ -1,5 +1,6 @@
 # qdlh alpha
 Qtile dirty litte helper - graphical settings-tool for qtile
+Since 02 it comes along with an graphical applicationlauncher. It can be launched by pressing Meta + Q (default)
 
 
 ![qdlh 0.1](https://github.com/Barba-Q/qdlh/blob/main/qdlh01.png)
@@ -38,6 +39,10 @@ Qdlh can:
 
 
 ## Usage
+-	Spawn qdlh-menu by pressing `Meta / Super Key + Q`
+-	The code behind the menu will lookup for _common_ installed Software and shows a clickable button 
+
+
 -	Spawn qdlh by pressing `Meta / Super Key + R and type`:
 				```qdlh```
 
