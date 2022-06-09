@@ -189,7 +189,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(title='branchdialog'),  # gitk
     Match(title='pinentry'),  # GPG key password entry
     Match(title='>qdlh_menu<'), # This is QDLH related and makes the menu floating
-    Match(title='>xterm<'), # This is QDLH related and makes xterm floating
+    Match(wm_class='>xterm<'), # This is QDLH related and makes xterm floating
 ])
 auto_fullscreen 			= True
 focus_on_window_activation 	= "smart"
