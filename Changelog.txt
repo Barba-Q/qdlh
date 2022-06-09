@@ -1,0 +1,4 @@
+0.2
+- qdlh-menu added
+- Fixed installation process so it can be installed without existing an qtile folder / config
+- Fixed color choosing
