@@ -2,8 +2,10 @@
 Qtile dirty litte helper - graphical settings-tool for qtile
 Since 02 it comes along with an graphical applicationlauncher. It can be launched by pressing Meta + Q (default)
 
+![qdlh 0.2](https://github.com/Barba-Q/qdlh/blob/main/qdlh_menu.png)
 
 ![qdlh 0.1](https://github.com/Barba-Q/qdlh/blob/main/qdlh01.png)
+
 
 # Description
 Qdlh comes along with an "installer" wich moves some files around to access a small python tool to set up qtile the graphical way.
