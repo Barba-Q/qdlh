@@ -255,6 +255,36 @@ def Mainwindow():
         if col_cnt == col_max:
             row_cnt = row_cnt + 1
             col_cnt = 0
+            
+    if os.path.exists(softwarepath+'gnome.system-monitor.desktop') == TRUE:
+        button_1 = tk.Button(mainwindow,
+        pady=setpady, padx=setpadx,
+        background = bg_color,
+        fg = text_color,
+        text = "Gnome\nSysmon",
+        compound = TOP,
+        command = lambda:[mainwindow.destroy(), subprocess.call(['gnome-system-monitor'])],
+        relief = FLAT)
+        button_1.grid(row = row_cnt, column = col_cnt, sticky = "nsew")
+        col_cnt = col_cnt + 1
+        if col_cnt == col_max:
+            row_cnt = row_cnt + 1
+            col_cnt = 0
+
+    if os.path.exists(softwarepath+'org.gnome.Terminal.desktop') == TRUE:
+        button_1 = tk.Button(mainwindow,
+        pady=setpady, padx=setpadx,
+        background = bg_color,
+        fg = text_color,
+        text = "Gnome\nTerminal",
+        compound = TOP,
+        command = lambda:[mainwindow.destroy(), subprocess.call(['gnome-terminal'])],
+        relief = FLAT)
+        button_1.grid(row = row_cnt, column = col_cnt, sticky = "nsew")
+        col_cnt = col_cnt + 1
+        if col_cnt == col_max:
+            row_cnt = row_cnt + 1
+            col_cnt = 0
 
     if os.path.exists(softwarepath+'google-chrome.desktop') == TRUE:
         button_1 = tk.Button(mainwindow,
