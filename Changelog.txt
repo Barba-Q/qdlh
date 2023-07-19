@@ -1,3 +1,8 @@
+0.3
+- fixes error being too specific on python version
+- added options to select a keyboard layout (us, de and fr for now)
+- added some more apps to be detected by the menu
+
 0.2
 - qdlh-menu added
 - Fixed installation process so it can be installed without existing an qtile folder / config
